@@ -1,21 +1,33 @@
-# dinosaurs-v2
+# Galvanize Dinosaurs - Profiles
 
-> A Vue.js project
+## Instructions
 
-## Build Setup
+1. Refactor the provided site so that it uses your chosen front end framework.
 
-``` bash
-# install dependencies
-npm install
+2. Key functionality that you need to replicate includes:
 
-# serve with hot reload at localhost:8080
-npm run dev
+* Getting data from an API with fetch
+* Rendering that data in a list of profiles
+* Toggling the profile on a click event
+* Rendering each profile's list of skills
 
-# build for production with minification
-npm run build
+3. Your app must be broken down into components for the:
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+* header
+* profiles
+* skill list
+* footer
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Testing
+
+1. Run `npm install`.
+2. Host your app locally on port `8080`.
+3. Navigate to this folder and run `npm test`.
+
+#### Deployed Link
+
+https://dinosaurs-v2.firebaseapp.com/
+
+#### Framework of choice
+
+Vue
